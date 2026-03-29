@@ -1,4 +1,3 @@
-<script>
 // ── Cursor ──────────────────────────────────────────
 const cursor = document.getElementById('cursor');
 const trail = document.getElementById('cursor-trail');
@@ -160,4 +159,3 @@ document.querySelectorAll('#about > *, .work-card, #contact > *').forEach(el => 
   el.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
   observer.observe(el);
 });
-</script>
